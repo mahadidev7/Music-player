@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+    
+    <section id="appBody__ID">
+        <div class="container">
+            <div class="AppGroup">
+                <div class="app_leftPart">
+                    <div class="manu">
+                        <div class="manu_list">
+                            <div><p>LIBRARY</p></div>
+                        </div>
+                        <div class="manu_list">
+                            <a href="./">
+                                <div><i class="uil uil-boombox"></i></div>
+                                <div><p>Playlists</p></div>
+                            </a>
+                        </div>
+                        <div class="manu_list">
+                            <a href="./">
+                                <div><i class="uil uil-user"></i></div>
+                                <div><p>artists</p></div>
+                            </a>
+                        </div>
+                        <div class="manu_list">
+                            <a href="./">
+                                <div><i class="uil uil-list-ui-alt"></i></div>
+                                <div><p>albums</p></div>
+                            </a>
+                        </div>
+                        <div class="manu_list active">
+                            <a href="./">
+                                <div><i class="uil uil-play-circle"></i></div>
+                                <div><p>song</p></div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="app_rightPart">
+                    <div class="titleBox">
+                        <div>
+                            <h3 class="active">Song</h3>
+                            <h1>New Releaases</h1>
+                        </div>
+                        <div>
+                            <i class="uil uil-repeat" id="loopIcon" title="loop audio"></i>
+                            <i class="uil uil-play" id="playIcon" title="play"></i>
+                            <i class="uil uil-pause" id="pauseIcon" title="pause"></i>
+                        </div>
+                    </div>
+                    <div class="musicGroup">
+                        <div class="musicPlayer__Grp">
+                            <div class="musicBox">
+                                <div>
+                                    <div class="music_dittlis">
+                                        <div>
+                                            <h3>Music Name </h3>
+                                            <small>Auth name</small>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <audio src="" autoplay id="Audio"></audio>
+                                    </div>
+                                    <div class="music_controler">
+                                       <div class="pre_next_control_grp">
+                                            <div id="backward">
+                                                <i class="uil uil-backward"></i>
+                                            </div>
+                                            <div id="play">
+                                                <i class="uil uil-play-circle"></i>
+                                            </div>
+                                            <div id="pause">
+                                                <i class="uil uil-pause-circle"></i>
+                                            </div>
+                                            <div id="forward">
+                                                <i class="uil uil-forward"></i>
+                                            </div>
+                                            
+                                       </div>
+                                       <div class="timer">
+                                           <span id="startAudioTime">0:00</span>
+                                           <span>
+                                               <input type="range" min="0" >
+                                            </span>
+                                           <span id="endAudioTime">0:00</span>
+                                       </div>
+                                       <div class="sound_Grp">
+                                            <span><i class="uil uil-volume"></i></span>
+                                            <span><input type="range" min="0" max="100" step="1"/></span>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="musiclist__Group">
+                            <!-- <div class="musiclists">
+                                <div class="musiclist_img">
+                                    <img src="https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                                </div>
+                                <div class="musiclist_name">
+                                    <p>Work</p>
+                                    <small>mahadi hasan</small>
+                                </div>
+                                <div class="musiclist_endTime">
+                                    <p>3:15</p>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <span>Create</span>
+                <span><a class="active" href="https://github.com/mahadidev7" target="_blank">@mahadidev7</a></span>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/app.js"></script>
+</body>
+</html>
