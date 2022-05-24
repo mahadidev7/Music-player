@@ -7,6 +7,7 @@ I have created a Music player with JavaScript DOM 💥🎧💥
 (3) Volume Control <br/>
 (4) Change song by click <br/>
 (5) loop control -  users can control the loop Through buttons <br/>
+(6) Change the background image according to the song <br/>
 etc.
 <br/>
 <br/>
